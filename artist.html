@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pipe Music</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+
+	<!-- link to bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+
+	<!-- link to own styles -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Pipe Music</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		 </button>
+			<div class="collapse navbar-collapse" id="navbarText">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Artistas<span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Mi música</a>
+					</li>
+				</ul>
+				<div class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Mi cuenta
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</div>
+			</div>
+	</nav>
+	<section id="artist">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8" id="list-album">
+						<!-- Aqui va los albunes del artista -->
+						<h1>The killers</h1>
+						<hr>
+						<div>
+							<span class="h4">Albums </span><sup class="badge badge-primary">7</sup>
+						</div>
+						<div class="row">
+							<div class="col-md-3 col-sm-6" id="space-box">
+								<div class="card border border-dark" id="card" >
+									<img class="card-img-top" src="images/album_killers_1.jpg" alt="Card image cap">
+									<div class="card-body text-center" style="background-color: #efefef">
+										<h5 class="card-title">Day & Age</h5>
+										<a href="#" class="btn btn-primary btn-block">Ver más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6" id="space-box">
+								<div class="card border border-dark" id="card" >
+									<img class="card-img-top" src="images/album_killers_2.jpg" alt="Card image cap">
+									<div class="card-body text-center" style="background-color: #efefef">
+										<h5 class="card-title">Sam´s Town</h5>
+										<a href="#" class="btn btn-primary btn-block">Ver más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6" id="space-box">
+								<div class="card border border-dark" id="card" >
+									<img class="card-img-top" src="images/album_killers_3.jpg" alt="Card image cap">
+									<div class="card-body text-center" style="background-color: #efefef">
+										<h5 class="card-title">Batle Born</h5>
+										<a href="#" class="btn btn-primary btn-block">Ver más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6" id="space-box">
+								<div class="card border border-dark" id="card" >
+									<img class="card-img-top" src="images/album_killers_4.jpg" alt="Card image cap">
+									<div class="card-body text-center" style="background-color: #efefef">
+										<h5 class="card-title">Hot fuss</h5>
+										<a href="#" class="btn btn-primary btn-block">Ver más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6" id="space-box">
+								<div class="card border border-dark" id="card" >
+									<img class="card-img-top" src="images/album_killers_5.jpg" alt="Card image cap">
+									<div class="card-body text-center" style="background-color: #efefef">
+										<h5 class="card-title">Hot fuss LE</h5>
+										<a href="#" class="btn btn-primary btn-block">Ver más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6" id="space-box">
+								<div class="card border border-dark" id="card" >
+									<img class="card-img-top" src="images/album_killers_6.jpg" alt="Card image cap">
+									<div class="card-body text-center" style="background-color: #efefef">
+										<h5 class="card-title">Sawdust</h5>
+										<a href="#" class="btn btn-primary btn-block">Ver más</a>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6" id="space-box">
+								<div class="card border border-dark" id="card" >
+									<img class="card-img-top" src="images/album_killers_7.jpg" alt="Card image cap">
+									<div class="card-body text-center" style="background-color: #efefef">
+										<h5 class="card-title">Killers live</h5>
+										<a href="#" class="btn btn-primary btn-block">Ver más</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<!-- Aqui va la foto del artista -->
+						<img src="images/the_killers_3.jpg" class="img-thumbnail" alt="imagen del grupo The killers">
+					</div>
+				</div>
+			</div>
+	</section>
+	
+	<!-- link to JQuery y JS for bootstrap -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
